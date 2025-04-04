@@ -7,7 +7,7 @@ feedback link: https://github.com/Snowflake-Labs/sfguides/issues
 tags: Getting Started, SQL, Data Engineering, AI
 author: James Cha-Earley
 
-# Getting Started with Image Analysis using AI Models on Snowflake Cortex
+# Getting Started with Image Classification with Anthropic on Snowflake Cortex
 
 ## Overview
 
@@ -44,7 +44,7 @@ Duration: 10
 
 To set up your Snowflake environment for image analysis:
 
-1. Download the [setup.sql](setup.sql) file
+1. Download the [setup.sql](https://github.com/Snowflake-Labs/sfguide-getting-started-with-image-classification-with-anthropic-snowflake-cortex/blob/main/setup.sql) file
 2. Open a new worksheet in Snowflake
 3. Paste the contents of setup.sql or upload and run the file
 4. The script will create:
@@ -56,11 +56,11 @@ To set up your Snowflake environment for image analysis:
 
 After running the setup script:
 
-1. Download the [data.zip](data.zip) and unzip for sample photos
-1. Navigate to Data > Databases > IMAGE_ANALYSIS > IMAGES > Stages
-2. Click "Upload Files" button in top right
-3. Select your image files
-4. Verify upload success:
+1. Download the [data.zip](https://github.com/Snowflake-Labs/sfguide-getting-started-with-image-classification-with-anthropic-snowflake-cortex/blob/main/data/data.zip) and unzip for sample photos
+2. Navigate to Data > Databases > IMAGE_ANALYSIS > IMAGES > Stages
+3. Click "Upload Files" button in top right
+4. Select your image files
+5. Verify upload success:
 
 ```sql
 ls @image_analysis.images;
@@ -88,7 +88,7 @@ Let's create a notebook to further explore image analysis techniques:
 3. To import the existing notebook:
    * Click the dropdown arrow next to "+ Notebook" 
    * Select "Import .ipynb" from the dropdown menu
-   * Upload the [image_analysis_notebook.ipynb](image_analysis_notebook.ipynb) file
+   * Upload the [image_analysis_notebook.ipynb](https://github.com/Snowflake-Labs/sfguide-getting-started-with-image-classification-with-anthropic-snowflake-cortex/blob/main/image_analysis_notebook.ipynb) file
 4. In the Create Notebook popup:
    * Select your IMAGE_ANALYSIS database and schema
    * Choose an appropriate warehouse
@@ -117,11 +117,11 @@ To create and configure your Streamlit application in Snowflake:
 
 2. Configure App Settings:
    * Enter a name for your app (e.g., "Image Analyzer")
-   * Select your warehouse as your warehouse
+   * Select your preferred warehouse
    * Choose IMAGE_ANALYSIS as your database and schema
 
 3. Create the app:
-   * In the editor, paste the complete code provided in the [image_analysis_app.py](image_analysis_app.py) file
+   * In the editor, paste the complete code provided in the [image_analysis_streamlit.py](https://github.com/Snowflake-Labs/sfguide-getting-started-with-image-classification-with-anthropic-snowflake-cortex/blob/main/image_analysis_streamlit.py) file
    * Click "Run" to launch your application
 
 The application provides:
@@ -146,10 +146,8 @@ Congratulations! You've successfully built an end-to-end image analysis applicat
 - How to implement batch processing for multiple images
 
 ### Related Resources
-- [Snowflake Cortex Documentation](https://docs.snowflake.com/en/user-guide/snowflake-cortex)
-- [Claude 3.5 Sonnet Capabilities](https://www.anthropic.com/news/claude-3-5-sonnet)
-- [Snowflake Streamlit Guide](https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit)
-- [Multimodal AI Applications](https://www.snowflake.com/blog/multimodal-ai-applications-with-snowflake-cortex/)
-- [Advanced Image Analysis Techniques](https://docs.snowflake.com/en/user-guide/snowflake-cortex/complete)
+- [Snowflake Cortex Documentation](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-llm-rest-api)
+- [Anthropic Tool Use on Snowflake Cortex Quickstart](https://quickstarts.snowflake.com/guide/getting-started-with-tool-use-on-cortex-and-anthropic-claude/index.html?index=..%2F..index#0)
+- [Anthropic RAG on Snowflake Cortex Quickstart](https://quickstarts.snowflake.com/guide/getting_started_with_anthropic_on_snowflake_cortex/index.html?index=..%2F..index#0)
 
 To continue your learning journey, explore creating more advanced prompting techniques, building domain-specific image analysis systems, or integrating this capability with other Snowflake data workflows.
