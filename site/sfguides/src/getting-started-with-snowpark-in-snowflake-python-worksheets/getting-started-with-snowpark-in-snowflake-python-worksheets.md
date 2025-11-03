@@ -61,8 +61,6 @@ Log into your Snowflake account. To access this lab and set up sample data and c
 
 The button above will take you to a page in the trial titled **Getting Started with Snowpark in Snowflake Python Worksheets** that will invite you to click **Setup Lab** which will take less than a minute and provide a setup with data and sample Python code with explanation.
 
-==================================================================================================
-
 ![Deploy](assets/setup_lab.png)
 
 <!-- ------------------------ -->
@@ -237,8 +235,6 @@ Here's what the **Results** tab looks like after running the worksheet.
 Optionally you can also deploy this worksheet as a Python Stored Procedure so that you can schedule it using [Snowflake Tasks](https://docs.snowflake.com/en/user-guide/tasks-intro), for example. To deploy this worksheet, click on the **Deploy** button on the top right and follow the instructions as shown below.
 
 ![Deploy](assets/deploy1.png)
-
-==================================================================================================
 
 ![Deploy](assets/deploy2.png)
 
