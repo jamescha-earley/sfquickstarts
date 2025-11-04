@@ -107,9 +107,9 @@ For use in a future step, we will need to download 2 separate .zip files that co
 
 Please leverage the two buttons below to download these .zip files. Once downloaded please unzip the files into a location that can easily be accessed in our next steps.
 
-- [Training Set ZIP](https://github.com/Snowflake-Labs/sfquickstarts/blob/master/site/sfguides/src/tasty_bytes_extracting_insights_with_docai/assets/inspection_reports_train.zip)
+- [Training Set ZIP](https://github.com/Snowflake-Labs/sfquickstarts/blob/master/site/sfguides/src/tasty-bytes-extracting-insights-with-docai/assets/inspection_reports_train.zip)
 
-- [Full Set ZIP](https://github.com/Snowflake-Labs/sfquickstarts/blob/master/site/sfguides/src/tasty_bytes_extracting_insights_with_docai/assets/inspection_reports_full.zip)
+- [Full Set ZIP](https://github.com/Snowflake-Labs/sfquickstarts/blob/master/site/sfguides/src/tasty-bytes-extracting-insights-with-docai/assets/inspection_reports_full.zip)
 
 
 ### Step 3 - Click Next -->
